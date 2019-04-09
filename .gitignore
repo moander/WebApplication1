@@ -1,0 +1,7 @@
+bin
+obj
+# Include in docker image but not in git
+.dockerimg
+appsettings.*.json
+!appsettings.json
+.uziver
